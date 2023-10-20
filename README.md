@@ -12,6 +12,6 @@ conda env create -f environmental.yaml
 
 Once in the new environment, we can execute the snakemake pipeline with this command: `snakemake --cores 1 -s Snakefile.txt`
 
-When the jobs are done, a choropleth plot displaying processed timeseries data and associated metadata will be in the [3_plot/out](3_plot/out) folder.
+When the jobs are done, a choropleth plot displaying processed timeseries data and associated metadata will be in a newly created out folder in [3_plot/](3_plot/).
 
 Modifications to the data query can be made via the [Snakefile](Snakefile.txt) by changing the params key values in the `get_data` rule, and by changing the hydrologic unit code (huc) inputs found in [1_fetch/src/in](1_fetch/src/in).
