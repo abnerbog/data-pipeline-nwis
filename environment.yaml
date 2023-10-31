@@ -1,4 +1,4 @@
-name: snakemake
+name: nwis-pipeline
 channels:
   - conda-forge
 dependencies:
