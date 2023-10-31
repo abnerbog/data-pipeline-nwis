@@ -7,7 +7,7 @@ A data pipeline used to analyze time series data from the National Water Informa
 This data analysis workflow uses Snakemake as a pipelining tool to retrieve, process and visualize environmenal time series data from NWIS. 
 
 First, create a Conda environment with all the required packages by running the following command: `
-conda env create -f environmental.yaml
+conda env create -f environment.yaml
 `
 
 Once in the new environment, we can execute the snakemake pipeline with this command: `snakemake --cores 1 -s Snakefile.txt`
