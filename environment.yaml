@@ -1,6 +1,7 @@
 name: nwis-pipeline
 channels:
   - conda-forge
+  - bioconda
 dependencies:
   - snakemake
   - pandas
