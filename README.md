@@ -1,10 +1,12 @@
 # data-pipeline-nwis
 
-A data pipeline used to analyze time series data from the National Water Information System (NWIS).
+A data pipeline used to retrieve, process and visualize time series data from the National Water Information System (NWIS). 
+
+<img src="./images/example_choropleth_plot.gif?raw=true" width="1920px">
 
 ## How to use
 
-This data analysis workflow uses Snakemake as a pipelining tool to retrieve, process and visualize environmenal time series data from NWIS. 
+This data analysis workflow uses Snakemake (installation instructions [here](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html)) as a pipelining tool to retrieve, process and visualize environmenal time series data from NWIS. The project files are organized following the [conventions](https://github.com/DOI-USGS/ds-pipelines-targets-1-course/blob/main/course-instructions.md) outlined in the USGS data science branch.
 
 First, create a Conda environment with all the required packages by running the following command: `
 conda env create -f environment.yaml
